@@ -1,4 +1,4 @@
-let products = [];
+// let products = [];
 let filteredProducts = [];
 let visibleCount = 6;
 // let cart = [];
@@ -98,13 +98,16 @@ themeBtn.addEventListener('click', () => {
 });
 
 
-fetch('data.json')
-    .then(res => res.json())
-    .then(data => {
-        products = data;
-        renderCategories();
-        applyFilters();
-    });
+// fetch('data.json')
+//     .then(res => res.json())
+//     .then(data => {
+//         products = data;
+//         renderCategories();
+//         applyFilters();
+//       });
+
+      renderCategories();
+      applyFilters();
 
 function renderCategories() {
     const categories = [ ...new Set(products.map(p => p.category))];
