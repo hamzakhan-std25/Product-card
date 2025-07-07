@@ -80,3 +80,8 @@ Save theme preference to localStorage
 Add checkout or order summary page
 
 Integrate real API (e.g., Firebase, FakeStoreAPI)
+
+
+🙌 Credits
+Made with ❤️ by Hamza Khan
+
